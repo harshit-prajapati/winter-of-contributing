@@ -127,7 +127,7 @@ function authenticator(isMember){
  ### Pass any **JavaScript expression** as a prop, by surrounding it with **{ }** :
 
  ```jsx
- <MyComponent no={5-2} />   // In MyComponent, the value of props.no will be 10 because 5-2 gets evaluated.
+ <MyComponent no={5-2} />   // In MyComponent, the value of props.no will be 3 because 5-2 gets evaluated.
  ```
 
 ### You can also pass any **Literal** as a prop :
